@@ -1,0 +1,71 @@
+.home-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4rem;
+  background-color: #0f172a;
+  color: white;
+  flex-wrap: wrap;
+}
+
+.home-content {
+  max-width: 600px;
+}
+
+.portfolio-title {
+  font-size: 1.2rem;
+  color: #cbd5e1;
+  margin-bottom: 0.5rem;
+}
+
+.role-highlight {
+  font-size: 2rem;
+  background: linear-gradient(to right, #a855f7, #38bdf8);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-top: 0.5rem;
+}
+
+.intro-text {
+  margin-top: 1.5rem;
+  line-height: 1.7;
+  font-size: 1rem;
+  color: #cbd5e1;
+}
+
+.download-btn {
+  margin-top: 2rem;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  background: linear-gradient(to right, #a855f7, #38bdf8);
+  border: none;
+  border-radius: 8px;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.download-btn:hover {
+  opacity: 0.85;
+}
+
+.home-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+
+.profile-circle {
+  background: radial-gradient(circle, #a855f7, #38bdf8);
+  padding: 6px;
+  border-radius: 50%;
+}
+
+.profile-image {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 5px solid #0f172a;
+}
